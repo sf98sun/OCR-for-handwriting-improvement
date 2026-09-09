@@ -1,0 +1,6815 @@
+{
+  "info": {
+    "description": "Circuit Schedule and Test Result Form Labels",
+    "version": "1.0",
+    "year": 2025,
+    "date_created": "2025-09-03T11:13:30.511132"
+  },
+  "licenses": [],
+  "images": [
+    {
+      "id": 1,
+      "width": 2000,
+      "height": 1414,
+      "file_name": "Circuit Schedule Test Result Landscape.png"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [
+        188,
+        75,
+        249,
+        80
+      ],
+      "area": 19920,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "job_number"
+      }
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 2,
+      "bbox": [
+        457,
+        75,
+        249,
+        80
+      ],
+      "area": 19920,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "qr_number"
+      }
+    },
+    {
+      "id": 3,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [
+        727,
+        75,
+        114,
+        80
+      ],
+      "area": 9120,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "page_number"
+      }
+    },
+    {
+      "id": 4,
+      "image_id": 1,
+      "category_id": 4,
+      "bbox": [
+        1299,
+        29,
+        67,
+        53
+      ],
+      "area": 3551,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 5,
+      "image_id": 1,
+      "category_id": 5,
+      "bbox": [
+        1481,
+        30,
+        67,
+        53
+      ],
+      "area": 3551,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_ocpd_type"
+      }
+    },
+    {
+      "id": 6,
+      "image_id": 1,
+      "category_id": 6,
+      "bbox": [
+        1744,
+        29,
+        107,
+        53
+      ],
+      "area": 5671,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_ocpd_rating"
+      }
+    },
+    {
+      "id": 7,
+      "image_id": 1,
+      "category_id": 7,
+      "bbox": [
+        1299,
+        82,
+        67,
+        53
+      ],
+      "area": 3551,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_spd_type"
+      }
+    },
+    {
+      "id": 8,
+      "image_id": 1,
+      "category_id": 8,
+      "bbox": [
+        1744,
+        82,
+        107,
+        53
+      ],
+      "area": 5671,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_spd_status"
+      }
+    },
+    {
+      "id": 9,
+      "image_id": 1,
+      "category_id": 9,
+      "bbox": [
+        1154,
+        136,
+        67,
+        53
+      ],
+      "area": 3551,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_supply_polarity"
+      }
+    },
+    {
+      "id": 10,
+      "image_id": 1,
+      "category_id": 10,
+      "bbox": [
+        1393,
+        136,
+        67,
+        53
+      ],
+      "area": 3551,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_phase_sequence"
+      }
+    },
+    {
+      "id": 11,
+      "image_id": 1,
+      "category_id": 11,
+      "bbox": [
+        1568,
+        136,
+        67,
+        53
+      ],
+      "area": 3551,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_zs"
+      }
+    },
+    {
+      "id": 12,
+      "image_id": 1,
+      "category_id": 12,
+      "bbox": [
+        1744,
+        137,
+        107,
+        53
+      ],
+      "area": 5671,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "db_ipf"
+      }
+    },
+    {
+      "id": 13,
+      "image_id": 1,
+      "category_id": 13,
+      "bbox": [
+        26,
+        410,
+        47,
+        47
+      ],
+      "area": 2209,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "single_phase"
+      }
+    },
+    {
+      "id": 14,
+      "image_id": 1,
+      "category_id": 14,
+      "bbox": [
+        74,
+        410,
+        60,
+        47
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "three_phase"
+      }
+    },
+    {
+      "id": 15,
+      "image_id": 1,
+      "category_id": 46,
+      "bbox": [
+        842,
+        1228,
+        194,
+        50
+      ],
+      "area": 9700,
+      "iscrowd": 0,
+      "attributes": {
+        "field_type": "other_wiring_type"
+      }
+    },
+    {
+      "id": 16,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 17,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        457,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 18,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        457,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 19,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 20,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 21,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 22,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        457,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 23,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        457,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 24,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        457,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 25,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 26,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 27,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 28,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 29,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        457,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 30,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 31,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 32,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 33,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 34,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 35,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 36,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 37,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        457,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 38,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        457,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 39,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 40,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 41,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        457,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 42,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 43,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        457,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 44,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        457,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 45,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 46,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        457,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 1,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 47,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 48,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        518,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 49,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        518,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 50,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 51,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 52,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 53,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        518,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 54,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        518,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 55,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        518,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 56,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 57,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 58,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 59,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 60,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        518,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 61,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 62,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 63,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 64,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 65,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 66,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 67,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 68,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        518,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 69,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        518,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 70,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 71,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 72,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        518,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 73,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 74,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        518,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 75,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        518,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 76,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 77,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        518,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 2,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 78,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 79,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        579,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 80,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        579,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 81,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 82,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 83,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 84,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        579,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 85,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        579,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 86,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        579,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 87,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 88,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 89,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 90,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 91,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        579,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 92,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 93,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 94,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 95,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 96,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 97,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 98,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 99,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        579,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 100,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        579,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 101,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 102,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 103,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        579,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 104,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 105,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        579,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 106,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        579,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 107,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 108,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        579,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 3,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 109,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 110,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        639,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 111,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        639,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 112,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 113,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 114,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 115,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        639,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 116,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        639,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 117,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        639,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 118,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 119,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 120,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 121,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 122,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        639,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 123,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 124,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 125,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 126,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 127,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 128,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 129,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 130,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        639,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 131,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        639,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 132,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 133,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 134,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        639,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 135,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 136,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        639,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 137,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        639,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 138,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 139,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        639,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 4,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 140,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 141,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        700,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 142,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        700,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 143,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 144,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 145,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 146,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        700,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 147,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        700,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 148,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        700,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 149,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 150,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 151,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 152,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 153,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        700,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 154,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 155,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 156,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 157,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 158,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 159,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 160,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 161,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        700,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 162,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        700,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 163,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 164,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 165,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        700,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 166,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 167,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        700,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 168,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        700,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 169,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 170,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        700,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 5,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 171,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 172,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        760,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 173,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        760,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 174,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 175,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 176,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 177,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        760,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 178,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        760,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 179,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        760,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 180,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 181,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 182,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 183,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 184,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        760,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 185,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 186,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 187,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 188,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 189,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 190,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 191,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 192,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        760,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 193,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        760,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 194,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 195,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 196,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        760,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 197,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 198,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        760,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 199,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        760,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 200,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 201,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        760,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 6,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 202,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 203,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        821,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 204,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        821,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 205,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 206,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 207,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 208,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        821,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 209,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        821,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 210,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        821,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 211,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 212,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 213,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 214,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 215,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        821,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 216,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 217,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 218,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 219,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 220,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 221,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 222,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 223,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        821,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 224,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        821,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 225,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 226,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 227,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        821,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 228,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 229,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        821,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 230,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        821,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 231,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 232,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        821,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 7,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 233,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 234,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        882,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 235,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        882,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 236,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 237,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 238,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 239,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        882,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 240,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        882,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 241,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        882,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 242,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 243,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 244,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 245,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 246,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        882,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 247,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 248,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 249,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 250,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 251,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 252,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 253,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 254,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        882,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 255,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        882,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 256,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 257,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 258,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        882,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 259,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 260,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        882,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 261,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        882,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 262,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 263,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        882,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 8,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 264,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 265,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        942,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 266,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        942,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 267,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 268,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 269,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 270,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        942,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 271,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        942,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 272,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        942,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 273,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 274,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 275,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 276,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 277,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        942,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 278,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 279,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 280,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 281,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 282,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 283,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 284,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 285,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        942,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 286,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        942,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 287,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 288,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 289,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        942,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 290,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 291,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        942,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 292,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        942,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 293,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 294,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        942,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 9,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 295,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 296,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        1003,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 297,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        1003,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 298,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 299,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 300,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 301,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        1003,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 302,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        1003,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 303,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        1003,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 304,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 305,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 306,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 307,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 308,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        1003,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 309,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 310,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 311,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 312,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 313,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 314,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 315,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 316,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        1003,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 317,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        1003,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 318,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 319,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 320,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        1003,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 321,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 322,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        1003,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 323,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        1003,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 324,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 325,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        1003,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 10,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 326,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 327,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        1063,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 328,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        1063,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 329,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 330,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 331,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 332,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        1063,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 333,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        1063,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 334,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        1063,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 335,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 336,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 337,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 338,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 339,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        1063,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 340,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 341,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 342,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 343,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 344,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 345,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 346,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 347,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        1063,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 348,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        1063,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 349,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 350,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 351,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        1063,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 352,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 353,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        1063,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 354,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        1063,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 355,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 356,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        1063,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 11,
+        "column": "afdd_test_button"
+      }
+    },
+    {
+      "id": 357,
+      "image_id": 1,
+      "category_id": 15,
+      "bbox": [
+        26,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "circuit_number"
+      }
+    },
+    {
+      "id": 358,
+      "image_id": 1,
+      "category_id": 16,
+      "bbox": [
+        74,
+        1124,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "phase"
+      }
+    },
+    {
+      "id": 359,
+      "image_id": 1,
+      "category_id": 17,
+      "bbox": [
+        134,
+        1124,
+        336,
+        60
+      ],
+      "area": 20160,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "circuit_designation"
+      }
+    },
+    {
+      "id": 360,
+      "image_id": 1,
+      "category_id": 18,
+      "bbox": [
+        471,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "type_of_wiring"
+      }
+    },
+    {
+      "id": 361,
+      "image_id": 1,
+      "category_id": 19,
+      "bbox": [
+        518,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "reference_method"
+      }
+    },
+    {
+      "id": 362,
+      "image_id": 1,
+      "category_id": 20,
+      "bbox": [
+        565,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "point_served"
+      }
+    },
+    {
+      "id": 363,
+      "image_id": 1,
+      "category_id": 21,
+      "bbox": [
+        612,
+        1124,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "conductor_live"
+      }
+    },
+    {
+      "id": 364,
+      "image_id": 1,
+      "category_id": 22,
+      "bbox": [
+        673,
+        1124,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "conductor_cpc"
+      }
+    },
+    {
+      "id": 365,
+      "image_id": 1,
+      "category_id": 23,
+      "bbox": [
+        733,
+        1124,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "max_disconnect_time"
+      }
+    },
+    {
+      "id": 366,
+      "image_id": 1,
+      "category_id": 24,
+      "bbox": [
+        794,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ocpd_bsen_code"
+      }
+    },
+    {
+      "id": 367,
+      "image_id": 1,
+      "category_id": 25,
+      "bbox": [
+        841,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ocpd_type"
+      }
+    },
+    {
+      "id": 368,
+      "image_id": 1,
+      "category_id": 26,
+      "bbox": [
+        888,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ocpd_rating"
+      }
+    },
+    {
+      "id": 369,
+      "image_id": 1,
+      "category_id": 27,
+      "bbox": [
+        935,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ocpd_capacity"
+      }
+    },
+    {
+      "id": 370,
+      "image_id": 1,
+      "category_id": 28,
+      "bbox": [
+        983,
+        1124,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ocpd_max_permitted_zs"
+      }
+    },
+    {
+      "id": 371,
+      "image_id": 1,
+      "category_id": 29,
+      "bbox": [
+        1043,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "rcd_bsen_code"
+      }
+    },
+    {
+      "id": 372,
+      "image_id": 1,
+      "category_id": 30,
+      "bbox": [
+        1090,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "rcd_type"
+      }
+    },
+    {
+      "id": 373,
+      "image_id": 1,
+      "category_id": 31,
+      "bbox": [
+        1144,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "rcd_op_current"
+      }
+    },
+    {
+      "id": 374,
+      "image_id": 1,
+      "category_id": 32,
+      "bbox": [
+        1198,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "rcd_rating"
+      }
+    },
+    {
+      "id": 375,
+      "image_id": 1,
+      "category_id": 33,
+      "bbox": [
+        1245,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "continuity_ring_r1"
+      }
+    },
+    {
+      "id": 376,
+      "image_id": 1,
+      "category_id": 34,
+      "bbox": [
+        1299,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "continuiy_ring_rn"
+      }
+    },
+    {
+      "id": 377,
+      "image_id": 1,
+      "category_id": 35,
+      "bbox": [
+        1353,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "continuity_ring_r2"
+      }
+    },
+    {
+      "id": 378,
+      "image_id": 1,
+      "category_id": 36,
+      "bbox": [
+        1407,
+        1124,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "continuity_r1r2"
+      }
+    },
+    {
+      "id": 379,
+      "image_id": 1,
+      "category_id": 37,
+      "bbox": [
+        1467,
+        1124,
+        60,
+        60
+      ],
+      "area": 3600,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "continuity_r2"
+      }
+    },
+    {
+      "id": 380,
+      "image_id": 1,
+      "category_id": 38,
+      "bbox": [
+        1528,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ir_test_voltage"
+      }
+    },
+    {
+      "id": 381,
+      "image_id": 1,
+      "category_id": 39,
+      "bbox": [
+        1582,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ir_live"
+      }
+    },
+    {
+      "id": 382,
+      "image_id": 1,
+      "category_id": 40,
+      "bbox": [
+        1636,
+        1124,
+        53,
+        60
+      ],
+      "area": 3180,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "ir_earth"
+      }
+    },
+    {
+      "id": 383,
+      "image_id": 1,
+      "category_id": 41,
+      "bbox": [
+        1690,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "polarity"
+      }
+    },
+    {
+      "id": 384,
+      "image_id": 1,
+      "category_id": 42,
+      "bbox": [
+        1737,
+        1124,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "max_measured_zs"
+      }
+    },
+    {
+      "id": 385,
+      "image_id": 1,
+      "category_id": 43,
+      "bbox": [
+        1804,
+        1124,
+        67,
+        60
+      ],
+      "area": 4020,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "rcd_disconnection_time"
+      }
+    },
+    {
+      "id": 386,
+      "image_id": 1,
+      "category_id": 44,
+      "bbox": [
+        1871,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "rcd_test_button"
+      }
+    },
+    {
+      "id": 387,
+      "image_id": 1,
+      "category_id": 45,
+      "bbox": [
+        1919,
+        1124,
+        47,
+        60
+      ],
+      "area": 2820,
+      "iscrowd": 0,
+      "attributes": {
+        "row": 12,
+        "column": "afdd_test_button"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "job_number",
+      "supercategory": "header"
+    },
+    {
+      "id": 2,
+      "name": "qr_number",
+      "supercategory": "header"
+    },
+    {
+      "id": 3,
+      "name": "page_number",
+      "supercategory": "header"
+    },
+    {
+      "id": 4,
+      "name": "db_ocpd_bsen_code",
+      "supercategory": "header"
+    },
+    {
+      "id": 5,
+      "name": "db_ocpd_type",
+      "supercategory": "header"
+    },
+    {
+      "id": 6,
+      "name": "db_ocpd_rating",
+      "supercategory": "header"
+    },
+    {
+      "id": 7,
+      "name": "db_spd_type",
+      "supercategory": "header"
+    },
+    {
+      "id": 8,
+      "name": "db_spd_status",
+      "supercategory": "header"
+    },
+    {
+      "id": 9,
+      "name": "db_supply_polarity",
+      "supercategory": "header"
+    },
+    {
+      "id": 10,
+      "name": "db_phase_sequence",
+      "supercategory": "header"
+    },
+    {
+      "id": 11,
+      "name": "db_zs",
+      "supercategory": "header"
+    },
+    {
+      "id": 12,
+      "name": "db_ipf",
+      "supercategory": "header"
+    },
+    {
+      "id": 13,
+      "name": "single_phase",
+      "supercategory": "checkbox"
+    },
+    {
+      "id": 14,
+      "name": "three_phase",
+      "supercategory": "checkbox"
+    },
+    {
+      "id": 15,
+      "name": "circuit_number",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 16,
+      "name": "phase",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 17,
+      "name": "circuit_designation",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 18,
+      "name": "type_of_wiring",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 19,
+      "name": "reference_method",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 20,
+      "name": "point_served",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 21,
+      "name": "conductor_live",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 22,
+      "name": "conductor_cpc",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 23,
+      "name": "max_disconnect_time",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 24,
+      "name": "ocpd_bsen_code",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 25,
+      "name": "ocpd_type",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 26,
+      "name": "ocpd_rating",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 27,
+      "name": "ocpd_capacity",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 28,
+      "name": "ocpd_max_permitted_zs",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 29,
+      "name": "rcd_bsen_code",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 30,
+      "name": "rcd_type",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 31,
+      "name": "rcd_op_current",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 32,
+      "name": "rcd_rating",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 33,
+      "name": "continuity_ring_r1",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 34,
+      "name": "continuiy_ring_rn",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 35,
+      "name": "continuity_ring_r2",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 36,
+      "name": "continuity_r1r2",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 37,
+      "name": "continuity_r2",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 38,
+      "name": "ir_test_voltage",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 39,
+      "name": "ir_live",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 40,
+      "name": "ir_earth",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 41,
+      "name": "polarity",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 42,
+      "name": "max_measured_zs",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 43,
+      "name": "rcd_disconnection_time",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 44,
+      "name": "rcd_test_button",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 45,
+      "name": "afdd_test_button",
+      "supercategory": "table_cell"
+    },
+    {
+      "id": 46,
+      "name": "other_wiring_type",
+      "supercategory": "header"
+    }
+  ]
+}

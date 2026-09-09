@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+torch>=2.4.0
+torchvision>=0.19.0
+torchaudio>=2.4.0
+pandas
+Pillow
+transformers
+datasets
+evaluate
+jiwer
+accelerate
+sentencepiece
+tiktoken
+easyocr
+opencv-python
+google-cloud-vision
+google-genai
+python-dotenv
+ollama
+inquirerpy
